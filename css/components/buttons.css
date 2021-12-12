@@ -1,0 +1,13 @@
+.btn-dribbble {
+    background-color: rgba(240, 130, 172, 1);
+    border-radius: 8px;
+    color: white;
+    margin: 5px;
+    padding: 16px 24px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-dribbble:hover {
+    background-color: rgba(240, 130, 172, 0.8);
+}
