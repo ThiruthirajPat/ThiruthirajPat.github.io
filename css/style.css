@@ -18,6 +18,11 @@ h1, h2, h3, h4 {
   font-family: Poppins;
 }
 
+h7 {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: lighter;
+}
 a {
   text-decoration: none;
 }
@@ -68,5 +73,26 @@ a {
   position: absolute;
   z-index: 1;
   width: 50%;
-  background-color: #212529;
+  background-color: #2E1115;
+}
+
+.bg-nav {
+  background-color: #2E1115;
+}
+
+.btn-berry {
+  background-color: #B5411A;
+  border-color: #B5411A;
+}
+.font-color-berry {
+  color: #501B1D;
+}
+.font-color-purple {
+  color: #64495C;
+}
+.font-color-purple-light {
+  color: #83687B;
+}
+.font-color-forest {
+  color: #ADADAD;
 }

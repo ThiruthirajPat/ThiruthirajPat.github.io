@@ -1,7 +1,7 @@
 .banner {
     background-size:cover;
     background-position:center;
-    padding: 200px;
+    padding: 10%;
     position:relative;
     display: flex;
     justify-content: center;
