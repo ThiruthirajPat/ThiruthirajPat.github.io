@@ -80,6 +80,10 @@ a {
   background-color: #2E1115;
 }
 
+.bg-section {
+  background: #F6F6F6; 
+}
+
 .btn-berry {
   background-color: #B5411A;
   border-color: #B5411A;
@@ -96,9 +100,4 @@ a {
 .font-color-forest {
   color: #ADADAD;
 }
-.gallery-slider{
-  position: relative;
-  width: 620px;
-  padding: 0 60px;
-  height: 345px;
-}
+
