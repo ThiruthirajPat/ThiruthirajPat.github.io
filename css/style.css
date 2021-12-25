@@ -73,11 +73,11 @@ a {
   position: absolute;
   z-index: 1;
   width: 50%;
-  background-color: #2E1115;
+  background-color: #000000;
 }
 
 .bg-nav {
-  background-color: #2E1115;
+  background-color: #000000;
 }
 
 .bg-section {
