@@ -11,3 +11,13 @@
 .btn-dribbble:hover {
     background-color: rgba(240, 130, 172, 0.8);
 }
+
+.btn-contact {
+    background-color: #F9B541;
+    border-radius: 8px;
+    color: white;
+    margin: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    display: inline-block;
+}
