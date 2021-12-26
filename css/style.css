@@ -73,11 +73,11 @@ a {
   position: absolute;
   z-index: 1;
   width: 50%;
-  background-color: #FEBA01;
+  background-color: #653DDE;
 }
 
 .bg-nav {
-  background-color: #FEBA01;
+  background-color: #653DDE;
 }
 
 .bg-section {
@@ -88,14 +88,12 @@ a {
   background-color: #B5411A;
   border-color: #B5411A;
 }
-.font-color-berry {
-  color: #501B1D;
-}
 .font-color-purple {
-  color: #64495C;
+  color: #450969;
 }
-.font-color-purple-light {
-  color: #83687B;
+
+.font-color-yellow {
+  color: #F7D801;
 }
 .font-color-forest {
   color: #ADADAD;
@@ -104,3 +102,15 @@ a {
 .btn-outline:hover {
   color: black;
 }
+
+tr:nth-child(odd) {
+  background-color: #653DDE;
+  }
+
+ tr:nth-child(even) {
+  background-color: #F7D801;
+  }
+
+  th {
+     background-color: lightseagreen;
+  }
