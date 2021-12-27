@@ -113,3 +113,10 @@ tr:nth-child(odd) {
   th {
      background-color: lightseagreen;
   }
+
+  .img-fl {
+    z-index: 2;
+    opacity: 1;
+    width:30%;
+    vertical-align: middle;
+  }
