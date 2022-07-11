@@ -23,6 +23,11 @@ h7 {
   font-size: 15px;
   font-weight: lighter;
 }
+
+.text-white {
+  color: white;
+}
+
 a {
   text-decoration: none;
 }
@@ -83,6 +88,14 @@ a {
   background: #F6F6F6; 
 }
 
+.bg-white {
+  background: white; 
+}
+
+
+.bg-berry {
+  background-image:linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+}
 .btn-berry {
   background-color: #B5411A;
   border-color: #B5411A;
@@ -121,12 +134,17 @@ tr:nth-child(odd) {
     vertical-align: middle;
   }
 
-  .masthead {
+  .topbanner {
     height: 100vh;
     min-height: 500px;
-    background-image: url('images/background.png');
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/lapt.jpg");
+    background-color: rgba(1,1,1,0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
+
+.opacity {
+  opacity: 0.85;
+}
