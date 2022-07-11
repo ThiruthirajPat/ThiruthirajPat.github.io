@@ -137,7 +137,7 @@ tr:nth-child(odd) {
   .topbanner {
     height: 100vh;
     min-height: 500px;
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/lapt.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/lap.jpg");
     background-color: rgba(1,1,1,0.5);
     background-size: cover;
     background-position: center;
