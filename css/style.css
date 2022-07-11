@@ -124,7 +124,7 @@ tr:nth-child(odd) {
   .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('images/excelcover.jpg');
+    background-image: url('images/background.png');
     opacity: 0.6;
     background-size: cover;
     background-position: center;
