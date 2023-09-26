@@ -140,7 +140,7 @@ tr:nth-child(odd) {
   .banner {
     width: 100vw; /* Set the width to 100% of the viewport width */
     height: auto; /* Adjust the height to auto */
-    min-height: 70vh; /* Set a minimum height */
+    min-height: 60vh; /* Set a minimum height */
     padding: 60px 0; /* Add padding to the top and bottom of the banner */
     background-size: cover; /* Ensure the background image covers the entire banner */
     background-position: center; /* Center the background image */
