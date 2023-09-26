@@ -117,6 +117,16 @@ a {
 .bg-berry {
   background-image:linear-gradient(to right, #0f0c29, #302b63, #24243e); 
 }
+
+.btn-contact {
+  background-color: #14010c; /* Change to the desired color */
+  color: #ffffff; /* Change the text color if needed */
+}
+
+.btn-contact:hover {
+  background-color: #320128; /* Change to a slightly darker color for hover effect */
+}
+
 .btn-berry {
   background-color: #B5411A;
   border-color: #B5411A;
