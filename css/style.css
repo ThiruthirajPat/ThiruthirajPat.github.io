@@ -24,6 +24,18 @@ h7 {
   font-weight: lighter;
 }
 
+/* Existing CSS for smaller screens */
+h3 {
+  font-size: 2em; /* or whatever your current font size is */
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1200px) { /* Adjust the min-width value as needed */
+  h3 {
+    font-size: 3em; /* Increase the font size for larger screens */
+  }
+}
+
 .text-black {
   color: black;
 }
@@ -155,15 +167,6 @@ tr:nth-child(odd) {
     text-align: left !important; /* Override Bootstrap's text-center alignment */
   }
 
-  .topobanner {
-    height: 100vh;
-    min-height: 500px;
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/belly.jpg");
-    background-color: rgba(1,1,1,0.5);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
 
 .opacity {
   opacity: 0.85;
