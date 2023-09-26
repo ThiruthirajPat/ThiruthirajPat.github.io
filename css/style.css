@@ -161,3 +161,53 @@ tr:nth-child(odd) {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
+/* Social Media Bar */
+#social-media-bar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.social-icon {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar */
+#navbar {
+  background-color: white;
+  padding: 15px;
+  position: fixed;
+  top: 40px; /* Adjusted for the social media bar */
+  width: 100%;
+  z-index: 999;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main Content */
+#main-content {
+  margin-top: 100px; /* Adjusted for the navbar and social media bar */
+}
+
+/* Footer */
+#footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sitemap, #contact-details, #footer-social-media {
+  width: 30%;
+}
