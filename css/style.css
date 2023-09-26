@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
 
 h7 {
   font-family: Open Sans;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: lighter;
 }
 
@@ -119,7 +119,7 @@ a {
 }
 
 .btn-contact {
-  background-color: #CD7F32; /* Change to the desired color */
+  background-color: #ffd700; /* Change to the desired color */
   color: #ffffff; /* Change the text color if needed */
 }
 
