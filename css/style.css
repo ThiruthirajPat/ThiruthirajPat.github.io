@@ -24,6 +24,10 @@ h7 {
   font-weight: lighter;
 }
 
+.text-black {
+  color: black;
+}
+
 .text-white {
   color: white;
 }
