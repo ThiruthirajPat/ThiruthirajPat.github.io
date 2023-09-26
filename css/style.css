@@ -138,17 +138,18 @@ tr:nth-child(odd) {
   }
 
   .banner {
-    width: 100vh;
+    width: 100vw; /* Set the width to 100% of the viewport width */
     height: auto; /* Adjust the height to auto */
     min-height: 50vh; /* Set a minimum height */
     padding: 60px 0; /* Add padding to the top and bottom of the banner */
-    background-size: cover; /* Cover the entire viewport */
+    background-size: cover; /* Ensure the background image covers the entire banner */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     text-align: left; /* Align text to the left */
     display: flex;
     align-items: center; /* Vertically center the text */
     justify-content: center; /* Horizontally center the text */
+    margin-left: calc(-50vw + 50%); /* Center the banner by adjusting the margin */
   }
   
   .container.text-center {
