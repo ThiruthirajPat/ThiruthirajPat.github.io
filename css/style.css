@@ -26,19 +26,19 @@ h6 {
 
 /* Existing CSS for smaller screens */
 h3 {
-  font-size: 2em; /* or whatever your current font size is */
+  font-size: 1em; /* or whatever your current font size is */
 }
 
 h6 {
-  font-size: 2em; /* or whatever your current font size is */
+  font-size: 1em; /* or whatever your current font size is */
 }
 /* Media Query for larger screens */
 @media (min-width: 1200px) { /* Adjust the min-width value as needed */
   h3 {
-    font-size: 4em; /* Increase the font size for larger screens */
+    font-size: 3em; /* Increase the font size for larger screens */
   }
   h6 {
-    font-size: 4em; /* Increase the font size for larger screens */
+    font-size: 2em; /* Increase the font size for larger screens */
   }
 }
 
