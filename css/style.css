@@ -138,10 +138,20 @@ tr:nth-child(odd) {
   }
 
   .banner {
-    height: 50vh;
-    background-size: contain;
-    background-position: center;
+    height: auto; /* Adjust the height to auto */
+    min-height: 50vh; /* Set a minimum height */
+    padding: 60px 0; /* Add padding to the top and bottom of the banner */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
     background-repeat: no-repeat;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+  }
+  
+  .container.text-center {
+    text-align: left !important; /* Override Bootstrap's text-center alignment */
   }
 
   .topobanner {
