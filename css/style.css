@@ -138,6 +138,7 @@ tr:nth-child(odd) {
   }
 
   .banner {
+    width: 100vh;
     height: auto; /* Adjust the height to auto */
     min-height: 50vh; /* Set a minimum height */
     padding: 60px 0; /* Add padding to the top and bottom of the banner */
