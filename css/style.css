@@ -163,20 +163,20 @@ tr:nth-child(odd) {
 }
 
 /* Social Media Bar */
-#social-media-bar {
+.social-media-icons {
   background-color: black;
-  color: white;
-  padding: 10px;
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
-  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-.social-icon {
-  margin-right: 10px;
-  text-decoration: none;
+.fa-icon {
   color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 /* Navbar */
@@ -189,9 +189,9 @@ tr:nth-child(odd) {
   z-index: 999;
 }
 
-#logo {
-  font-size: 24px;
-  font-weight: bold;
+.logo {
+  max-width: 100px;
+  height: auto;
 }
 
 /* Main Content */
