@@ -137,15 +137,25 @@ tr:nth-child(odd) {
     vertical-align: middle;
   }
 
-  .banner {
+  .topbanner {
     height: 100vh;
-    min-height: 600px;
+    min-height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/lap.jpg");
     background-color: rgba(1,1,1,0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
+  .topobanner {
+    height: 100vh;
+    min-height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/belly.jpg");
+    background-color: rgba(1,1,1,0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 .opacity {
   opacity: 0.85;
