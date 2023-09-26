@@ -119,12 +119,12 @@ a {
 }
 
 .btn-contact {
-  background-color: #14010c; /* Change to the desired color */
+  background-color: #CD7F32; /* Change to the desired color */
   color: #ffffff; /* Change the text color if needed */
 }
 
 .btn-contact:hover {
-  background-color: #320128; /* Change to a slightly darker color for hover effect */
+  background-color: #d2914f; /* Change to a slightly darker color for hover effect */
 }
 
 .btn-berry {
