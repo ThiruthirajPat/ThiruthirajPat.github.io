@@ -145,11 +145,10 @@ tr:nth-child(odd) {
     background-repeat: no-repeat;
   }
   
-  .banner .container h3 {
-    text-align: left; /* Left-aligned text */
-    padding-left: 20px; /* Added padding to the left */
+  .left-align-text {
+    text-align: left;
+    padding-left: 20px;
   }
-
 
 .opacity {
   opacity: 0.85;
