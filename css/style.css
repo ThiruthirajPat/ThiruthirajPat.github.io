@@ -74,14 +74,13 @@ a {
 }
 
 #navbarNavAltMarkup {
-  position: absolute;
   z-index: 1;
-  width: 50%;
-  background-color: #002C48;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 .bg-nav {
-  background-color: #002C48;
+  background-color: #ffffff;
 }
 
 .bg-section {
