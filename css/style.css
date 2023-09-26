@@ -138,8 +138,8 @@ tr:nth-child(odd) {
   }
 
   .banner {
-    height: 150vh; /* Increased height */
-    min-height: 500px;
+    height: 100vh; /* Increased height */
+    min-height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
