@@ -24,6 +24,11 @@ h7 {
   font-weight: lighter;
 }
 
+h8 {
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: lighter;
+}
 /* Existing CSS for smaller screens */
 h3 {
   font-size: 1em; /* or whatever your current font size is */
