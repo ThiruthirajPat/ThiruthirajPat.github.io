@@ -118,12 +118,22 @@ a {
 }
 
 .btn-contact {
-  background-color: #ffd700; /* Change to the desired color */
-  color: #ffffff; /* Change the text color if needed */
+  background-color: #6c5ce7; /* Purple */
+  color: #ffffff; /* White */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-contact:hover {
-  background-color: #d2914f; /* Change to a slightly darker color for hover effect */
+  background-color: #4834d4; /* Darker Purple */
+  color: #ffffff; /* White */
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
 }
 
 .btn-berry {
