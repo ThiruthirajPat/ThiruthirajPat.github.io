@@ -29,15 +29,9 @@ h3 {
   font-size: 1em; /* or whatever your current font size is */
 }
 
-h7 {
-  font-size: 1em; /* or whatever your current font size is */
-}
 /* Media Query for larger screens */
 @media (min-width: 1200px) { /* Adjust the min-width value as needed */
   h3 {
-    font-size: 3em; /* Increase the font size for larger screens */
-  }
-  h7 {
     font-size: 3em; /* Increase the font size for larger screens */
   }
 }
