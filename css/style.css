@@ -128,7 +128,7 @@ a {
 }
 
 .btn-contact {
-  background-color: #008080; /* Purple */
+  background-color: #0c95b4; /* Purple */
   color: #ffffff; /* White */
   border: none;
   padding: 10px 20px;
@@ -140,7 +140,7 @@ a {
 }
 
 .btn-contact:hover {
-  background-color: #039d9d; /* Darker Purple */
+  background-color: #14AECF; /* Darker Purple */
   color: #ffffff; /* White */
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   transform: translateY(-7px);
