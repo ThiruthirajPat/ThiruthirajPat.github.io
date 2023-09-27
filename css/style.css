@@ -181,7 +181,7 @@ tr:nth-child(odd) {
     background-size: cover; /* Ensure the background image covers the entire banner */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     display: flex;
     align-items: center; /* Vertically center the text */
     justify-content: center; /* Horizontally center the text */
