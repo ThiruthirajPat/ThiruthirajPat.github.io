@@ -141,7 +141,7 @@ a {
 
 .btn-contact:hover {
   background-color: #FF3131; /* Darker Purple */
-  color: #000000; /* White */
+  color: #ffffff; /* White */
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   transform: translateY(-7px);
 }
