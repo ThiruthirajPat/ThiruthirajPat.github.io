@@ -135,14 +135,14 @@ a {
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 15px rgba(133, 1, 1, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
 .btn-contact:hover {
-  background-color: #FF3131; /* Darker Purple */
+  background-color: #5c0202; /* Darker Purple */
   color: #ffffff; /* White */
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  box-shadow: 0px 15px 20px rgba(177, 2, 2, 0.4);
   transform: translateY(-7px);
 }
 
