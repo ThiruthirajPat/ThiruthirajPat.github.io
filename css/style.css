@@ -227,11 +227,11 @@ tr:nth-child(odd) {
 .consulting-text, .consulting-visual {
     flex-basis: 48%; /* Adjust the width as necessary */
     flex-grow: 1;
-    max-width: 48%; /* Adjust the width as necessary */
+    max-width: 90%; /* Adjust the width as necessary */
 }
 
 .consulting-visual img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
