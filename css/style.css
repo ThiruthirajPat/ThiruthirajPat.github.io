@@ -215,7 +215,7 @@ tr:nth-child(odd) {
     text-align: left !important; /* Override Bootstrap's text-center alignment */
   }
 
-  .consulting-section-container {
+.consulting-section-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -227,11 +227,11 @@ tr:nth-child(odd) {
 .consulting-text, .consulting-visual {
     flex-basis: 48%; /* Adjust the width as necessary */
     flex-grow: 1;
-    max-width: 90%; /* Adjust the width as necessary */
+    max-width: 48%; /* Adjust the width as necessary */
 }
 
 .consulting-visual img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
