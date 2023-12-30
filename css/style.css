@@ -206,6 +206,31 @@ tr:nth-child(odd) {
     text-align: left !important; /* Override Bootstrap's text-center alignment */
   }
 
+  .consulting-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.consulting-text, .consulting-visual {
+    width: 48%; /* Adjust the width as necessary */
+}
+
+.consulting-text {
+    /* Additional styling for text column */
+}
+
+.consulting-visual {
+    /* Additional styling for visual column */
+    text-align: center; /* Center the image */
+}
+
+.consulting-visual img {
+    max-width: 100%;
+    height: auto;
+}
 
 .opacity {
   opacity: 0.85;
