@@ -42,16 +42,15 @@ h7 {
   }
 }
 
-/* Responsive design considerations */
+/* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
-  .consulting-section-container {
-      flex-direction: column;
-  }
-
   .consulting-text, .consulting-visual {
-      width: 100%;
+      flex-basis: 100%;
+      max-width: 100%;
   }
 }
+
+
 .text-black {
   color: black;
 }
@@ -218,27 +217,21 @@ tr:nth-child(odd) {
 
   .consulting-section-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     padding: 20px;
 }
 
 .consulting-text, .consulting-visual {
-    width: 48%; /* Adjust the width as necessary */
-}
-
-.consulting-text {
-    /* Additional styling for text column */
-}
-
-.consulting-visual {
-    /* Additional styling for visual column */
-    text-align: center; /* Center the image */
+    flex-basis: 48%; /* Adjust the width as necessary */
+    flex-grow: 1;
+    max-width: 48%; /* Adjust the width as necessary */
 }
 
 .consulting-visual img {
-    max-width: 50%;
+    width: 100%;
     height: auto;
 }
 
