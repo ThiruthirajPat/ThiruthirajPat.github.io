@@ -42,6 +42,16 @@ h7 {
   }
 }
 
+/* Responsive design considerations */
+@media screen and (max-width: 768px) {
+  .consulting-section-container {
+      flex-direction: column;
+  }
+
+  .consulting-text, .consulting-visual {
+      width: 100%;
+  }
+}
 .text-black {
   color: black;
 }
