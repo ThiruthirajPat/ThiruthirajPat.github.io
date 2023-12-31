@@ -216,7 +216,7 @@ tr:nth-child(odd) {
 /* Responsive design for smaller screens */
 @media screen and (max-width: 768px) {
   .consulting-visual img {
-      max-width: 100%; /* Allows the image to take full width of the container on small screens */
+      max-width: 60%; /* Allows the image to take full width of the container on small screens */
   }
 }
 
