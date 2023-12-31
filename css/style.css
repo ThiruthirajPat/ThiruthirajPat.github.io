@@ -43,12 +43,12 @@ h7 {
 }
 
 /* Responsive design for smaller screens */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .consulting-text, .consulting-visual {
       flex-basis: 100%;
       max-width: 100%;
   }
-}
+}*/
 
 
 .text-black {
