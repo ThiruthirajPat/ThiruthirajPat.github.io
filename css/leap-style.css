@@ -1,0 +1,137 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/herobanner.png') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #FFD700;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #E5BE00;
+}
+
+/* About Section */
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.benefits ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Program Details Section */
+.program-details {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.program-details h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program-details ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Sign Up Section */
+.signup {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
