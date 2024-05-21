@@ -3,43 +3,19 @@
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url("components/banners.css");
-@import url("components/cards.css");
-@import url("components/buttons.css");
-@import url("components/images.css");
 
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 
-h7 {
-  font-family: Open Sans;
+h4, h7 {
   font-weight: lighter;
-}
-
-h8 {
-  font-family: Open Sans;
-  font-size: 10px;
-  font-weight: lighter;
-}
-/* Existing CSS for smaller screens */
-h4 {
-  font-size: 1em; /* or whatever your current font size is */
-}
-h7 {
-  font-size: 0.9em; /* or whatever your current font size is */
-}
-/* Media Query for larger screens */
-@media (min-width: 1200px) { /* Adjust the min-width value as needed */
-  h4 {
-    font-size: 3em; /* Increase the font size for larger screens */
-  }
 }
 
 .text-black {
@@ -53,190 +29,72 @@ h7 {
 .text-gold {
   color: gold;
 }
-.outlined-text {
+
+.highlight {
   color: white;
-  text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  background-color: rgb(128, 4, 150);
 }
 
 a {
   text-decoration: none;
 }
 
-/* Custom design below! */
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
 }
 
-.list-inline li {
-  display: inline-block;
-  padding: 0px 10px;
+.nav-link {
+  color: #000;
 }
 
-.footer {
-  background: black;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(255, 255, 255, 0.959);
-}
-.footer-links {
-  align-items: center;
-}
-.footer-links a {
-  color: white;
-  opacity: 0.3;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-}
-.footer .fa-heart {
-  color: #D23333;
+.nav-link:hover {
+  color: #007BFF;
 }
 
-.text-center {
-  text-align: center;
-}
-
-#navbarNavAltMarkup {
-  z-index: 1;
+.banner {
   width: 100%;
-  background-color: #ffffff;
-}
-
-.bg-nav {
-  background-color: #ffffff;
-}
-
-.bg-section {
-  background: #F6F6F6; 
-}
-
-.bg-white {
-  background: white; 
-}
-
-
-.bg-berry {
-  background-image:linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+  padding: 60px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/herobanner.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
 }
 
 .btn-contact {
-  background-color: #FFD700; /* Yellow */
-  color: black; /* White */
+  background-color: #FFD700;
+  color: black;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  box-shadow: 0px 8px 15px rgba(133, 1, 1, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
 .btn-contact:hover {
-  background-color: #FFD650; /* Darker Purple */
-  color: black; /* White */
+  background-color: #FFD650;
+  color: black;
   box-shadow: 0px 15px 20px rgba(252, 239, 0, 0.954);
   transform: translateY(-7px);
 }
 
-.btn-berry {
-  background-color: #B5411A;
-  border-color: #B5411A;
-}
-.font-color-purple {
-  color: #260317;
-}
-.font-color-jaune {
-  color: #FFC813;
+/* Sections */
+.section {
+  padding: 60px 0;
 }
 
-.font-color-yellow {
-  color: #AD000C;
-}
-.font-color-forest {
-  color: #534f4f;
+.section h3 {
+  margin-bottom: 20px;
 }
 
-.btn-outline:hover {
-  color: black;
-}
-
-tr:nth-child(odd) {
-  border-color: #002C48;
-  }
-
- tr:nth-child(even) {
-  border-color: #D9D9D9;
-  }
-
-  th {
-     background-color: lightseagreen;
-  }
-
-  .img-fl {
-    z-index: 2;
-    opacity: 1;
-    width:30%;
-    vertical-align: middle;
-  }
-
-  .banner {
-    width: 100vw; /* Set the width to 100% of the viewport width */
-    height: auto; /* Adjust the height to auto */
-    padding: 60px 0; /* Add padding to the top and bottom of the banner */
-    background-size: cover; /* Ensure the background image covers the entire banner */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat;
-    text-align: center; /* Align text to the left */
-    display: flex;
-    align-items: center; /* Vertically center the text */
-    justify-content: center; /* Horizontally center the text */
-    margin-left: calc(-50vw + 50%); /* Center the banner by adjusting the margin */
-  }
-  
-  .container.text-center {
-    text-align: left !important; /* Override Bootstrap's text-center alignment */
-  }
-
-  .consulting-visual img {
-    width: 60%; /* Makes the image width responsive to the container's width */
-    height: auto; /* Maintains the aspect ratio of the image */
-    max-width: 600px; /* Maximum width of the image - can be adjusted as needed */
-    display: block; /* Ensures the image is block level to take the width property effectively */
-    margin: 0 auto; /* Centers the image in the container */
-}
-
-/* Responsive design for smaller screens */
-@media screen and (max-width: 768px) {
-  .consulting-visual img {
-      max-width: 60%; /* Allows the image to take full width of the container on small screens */
-  }
-}
-
-.opacity {
-  opacity: 0.85;
-}
-
-.video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
+.section p {
+  margin-bottom: 20px;
 }
 
 /* Social Media Bar */
 .social-media-icons {
   background-color: black;
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -249,35 +107,40 @@ tr:nth-child(odd) {
   font-size: 24px;
 }
 
-/* Navbar */
-#navbar {
-  background-color: white;
-  padding: 15px;
-  position: fixed;
-  top: 40px; /* Adjusted for the social media bar */
-  width: 100%;
-  z-index: 999;
-}
-
-.logo {
-  max-width: 100px;
-  height: auto;
-}
-
-/* Main Content */
-#main-content {
-  margin-top: 100px; /* Adjusted for the navbar and social media bar */
-}
-
 /* Footer */
-#footer {
+.footer {
   background-color: black;
-  color: white;
+  color: rgba(255, 255, 255, 0.959);
+  text-align: center;
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 
-#sitemap, #contact-details, #footer-social-media {
-  width: 30%;
+.footer-links a {
+  color: white;
+  opacity: 0.3;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+/* Responsive design */
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .consulting-visual img {
+    max-width: 100%;
+    height: auto;
+  }
 }
