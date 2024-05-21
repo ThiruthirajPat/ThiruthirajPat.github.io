@@ -55,27 +55,38 @@ a {
 
 .banner {
   width: 100%;
-  padding: 60px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/herobanner.png') no-repeat center center/cover;
+  padding: 100px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/herobanner.png') no-repeat center center/cover;
   color: white;
   text-align: center;
+}
+
+.text-yellow {
+  color: #FFD700;
+}
+
+.highlight {
+  color: white;
+  background-color: #800496;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .btn-contact {
   background-color: #FFD700;
   color: black;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 15px 30px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-contact:hover {
-  background-color: #FFD650;
+  background-color: #E5BE00;
   color: black;
-  box-shadow: 0px 15px 20px rgba(252, 239, 0, 0.954);
+  box-shadow: 0px 15px 20px rgba(255, 215, 0, 0.4);
   transform: translateY(-7px);
 }
 
