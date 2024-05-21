@@ -142,5 +142,9 @@ a {
   .consulting-visual img {
     max-width: 100%;
     height: auto;
+    max-width: 600px; /* Adjust this value as needed */
+    display: block;
+    margin: 0 auto;
   }
 }
+
