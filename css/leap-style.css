@@ -165,10 +165,6 @@ footer {
 }
 
 /* Video Section */
-.video-section {
-    margin-bottom: 2rem; /* Adjust this value as needed */
-}
-
 .video-section h2 {
     color: #333;
     font-size: 2em;
@@ -178,20 +174,17 @@ footer {
 .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 100.78%; /* Aspect ratio for vertical video (9:16) */
-    height: 0;
-    margin-bottom: 0; /* Remove bottom margin */
+    height: 50vh; /* Set height to 50% of viewport height */
+    overflow: hidden;
 }
 
 .video-container iframe {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
     height: 100%;
-}
-
-/* Reduce space below the video */
-.video-section + * {
-    margin-top: 0; /* Remove top margin of the next element */
+    transform: translateX(-50%);
+    width: auto;
+    min-width: 100%; /* Ensures the iframe covers the container width */
+    min-height: 100%; /* Ensures the iframe covers the container height */
 }
