@@ -173,7 +173,7 @@ footer {
 
 .video-container {
     position: relative;
-    width: 100%;
+    width: 50%;
     padding-bottom: 177.78%; /* Aspect ratio for vertical video (9:16) */
     height: 0;
 }
@@ -182,6 +182,6 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
