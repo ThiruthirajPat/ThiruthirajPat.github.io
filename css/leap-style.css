@@ -135,3 +135,31 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
+
+/* FAQ Section */
+.faq h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #FFD700;
+}
+
+.accordion-body {
+    font-size: 1em;
+    color: #333;
+}
