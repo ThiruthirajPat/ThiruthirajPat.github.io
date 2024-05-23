@@ -12,6 +12,11 @@ body {
     padding: 20px;
 }
 
+
+.general p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
 /* Hero Section */
 .hero {
     background: url('images/herobanner.png') no-repeat center center/cover;
