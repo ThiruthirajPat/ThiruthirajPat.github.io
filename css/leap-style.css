@@ -139,7 +139,7 @@ footer {
 
 /* FAQ Section */
 .faq h2 {
-    color: #333;
+    color: #ffff;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -156,7 +156,7 @@ footer {
 
 .accordion-button:not(.collapsed) {
     color: #000;
-    background-color: #410135;
+    background-color: #38002E;
 }
 
 .accordion-body {
