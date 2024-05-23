@@ -105,6 +105,12 @@ ul li {
     padding-left: 40px;
 }
 
+/* Profile Section */
+.profile-img {
+    max-height: 300px; /* Adjust the max-height value as needed */
+    width: auto; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+}
 /* Testimonials Section */
 .testimonials {
     background-color: #f9f9f9;
