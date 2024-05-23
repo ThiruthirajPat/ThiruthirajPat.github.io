@@ -145,7 +145,7 @@ footer {
 }
 
 .accordion-button {
-    background-color: #FFD700;
+    background-color: #38002E;
     color: #000;
     font-weight: bold;
 }
@@ -156,7 +156,7 @@ footer {
 
 .accordion-button:not(.collapsed) {
     color: #000;
-    background-color: #FFD700;
+    background-color: #410135;
 }
 
 .accordion-body {
