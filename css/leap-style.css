@@ -22,12 +22,12 @@ body {
 
 .hero-title {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .hero-subtitle {
     font-size: 1.5em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .btn-primary {
