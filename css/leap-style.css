@@ -22,6 +22,10 @@ ul {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
+
+ul li {
+    margin-bottom: 10px; /* Adjust the value as needed for desired spacing */
+}
 /* Hero Section */
 .hero {
     background: url('images/herobanner.png') no-repeat center center/cover;
