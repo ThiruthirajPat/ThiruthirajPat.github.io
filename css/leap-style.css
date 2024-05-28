@@ -91,26 +91,30 @@ ul li {
 
 /* Included */
 .feature {
-  position: relative;
-  padding-left: 30px; /* Adjust this value to fit the arrow */
-  margin-bottom: 20px; /* Adjust spacing between features */
-}
-
-.feature::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 10px; /* Adjust this value to align arrow vertically */
-  width: 10px; /* Width of the arrow */
-  height: 10px; /* Height of the arrow */
-  border: solid green;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
+    position: relative;
+    padding-left: 40px; /* Adjust this value to fit the tick symbol */
+    margin-bottom: 20px; /* Adjust spacing between features */
+  }
+  
+  .feature::before {
+    content: '\2713'; /* Unicode for tick symbol */
+    color: white; /* Green color for the tick */
+    position: absolute;
+    left: 0;
+    top: 50%; /* Vertically center the tick */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    background-color: green; /* Background color of the circle */
+    border: 2px solid green; /* Border color */
+    border-radius: 50%; /* Make it round */
+    width: 20px; /* Width of the circle */
+    height: 20px; /* Height of the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Font size of the tick */
+    font-weight: bold;
+  }
+  
 
 /* Profile Section */
 .prof-img {
