@@ -103,12 +103,12 @@ ul li {
   
   .feature h3::before {
     content: '\2713'; /* Unicode for tick symbol */
-    color: green; /* Green color for the tick */
+    color: white; /* Green color for the tick */
     position: absolute;
     left: -40px; /* Align with the padding-left of .feature */
     top: 50%; /* Vertically center the tick */
     transform: translateY(-50%); /* Adjust vertical alignment */
-    background-color: white; /* Background color of the circle */
+    background-color: green; /* Background color of the circle */
     border: 2px solid green; /* Border color */
     border-radius: 50%; /* Make it round */
     width: 20px; /* Width of the circle */
