@@ -96,22 +96,27 @@ ul li {
     margin-bottom: 20px; /* Adjust spacing between features */
   }
   
-  .feature::before {
+  .feature h3 {
+    position: relative;
+    margin-left: 40px; /* Make space for the tick symbol */
+  }
+  
+  .feature h3::before {
     content: '\2713'; /* Unicode for tick symbol */
-    color: white; /* Green color for the tick */
+    color: green; /* Green color for the tick */
     position: absolute;
-    left: 0;
+    left: -40px; /* Align with the padding-left of .feature */
     top: 50%; /* Vertically center the tick */
     transform: translateY(-50%); /* Adjust vertical alignment */
-    background-color: green; /* Background color of the circle */
+    background-color: white; /* Background color of the circle */
     border: 2px solid green; /* Border color */
     border-radius: 50%; /* Make it round */
-    width: 40px; /* Width of the circle */
-    height: 40px; /* Height of the circle */
+    width: 20px; /* Width of the circle */
+    height: 20px; /* Height of the circle */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px; /* Font size of the tick */
+    font-size: 1.2em; /* Match the size of the h3 font */
     font-weight: bold;
   }
   
