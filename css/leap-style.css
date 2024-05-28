@@ -169,6 +169,28 @@ ul li {
     padding-left: 40px;
 }
 
+/* Investment Section */
+
+#investment .card {
+    transition: transform 0.3s ease;
+}
+
+#investment .card:hover {
+    transform: translateY(-5px);
+}
+
+#investment .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#investment .card-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+
 /* Sign Up Section */
 .signup {
     background-color: #f9f9f9;
