@@ -89,37 +89,28 @@ ul li {
     padding-left: 40px;
 }
 
-/* About Section */
-.about {
-    background-color: white;
-    padding: 50px 0;
+/* Included */
+.feature {
+  position: relative;
+  padding-left: 30px; /* Adjust this value to fit the arrow */
+  margin-bottom: 20px; /* Adjust spacing between features */
 }
 
-.about h2 {
-    text-align: center;
-    margin-bottom: 30px;
+.feature::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px; /* Adjust this value to align arrow vertically */
+  width: 10px; /* Width of the arrow */
+  height: 10px; /* Height of the arrow */
+  border: solid green;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
-.about ul {
-    list-style-type: disc;
-    padding-left: 40px;
-}
-
-/* Benefits Section */
-.benefits {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-}
-
-.benefits h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.benefits ul {
-    list-style-type: disc;
-    padding-left: 40px;
-}
 
 /* Profile Section */
 .prof-img {
