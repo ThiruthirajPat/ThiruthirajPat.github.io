@@ -47,7 +47,7 @@ ul li {
 
 .hero-title {
     font-size: 3em;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .hero-subtitle {
@@ -89,9 +89,25 @@ ul li {
     padding-left: 40px;
 }
 
+/* About Section */
+.about {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
 /* Benefits Section */
 .benefits {
-    background-color: white;
+    background-color: #f9f9f9;
     padding: 50px 0;
 }
 
