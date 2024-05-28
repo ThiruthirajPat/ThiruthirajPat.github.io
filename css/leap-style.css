@@ -111,8 +111,8 @@ ul li {
     background-color: green; /* Background color of the circle */
     border: 2px solid green; /* Border color */
     border-radius: 50%; /* Make it round */
-    width: 20px; /* Width of the circle */
-    height: 20px; /* Height of the circle */
+    width: 30px; /* Width of the circle */
+    height: 30px; /* Height of the circle */
     display: flex;
     align-items: center;
     justify-content: center;
