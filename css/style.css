@@ -36,7 +36,7 @@ h4, h7 {
 
 .highlight {
   color: white;
-  background-color: rgb(128, 4, 150);
+  background-color: #6834D4;
 }
 
 a {
@@ -82,8 +82,8 @@ a {
 }
 
 .btn-contact {
-  background-color: #FFD700;
-  color: black;
+  background-color: #31C563;
+  color: white;
   border: none;
   padding: 15px 30px;
   font-size: 18px;
@@ -93,8 +93,8 @@ a {
 }
 
 .btn-contact:hover {
-  background-color: #E5BE00;
-  color: black;
+  background-color: #24a750;
+  color: white;
   box-shadow: 0px 15px 20px rgba(255, 215, 0, 0.4);
   transform: translateY(-7px);
 }
