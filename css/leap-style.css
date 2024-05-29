@@ -190,22 +190,6 @@ ul li {
 }
 
 
-/* Program Details Section */
-.program-details {
-    background-color: white;
-    padding: 50px 0;
-}
-
-.program-details h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.program-details ul {
-    list-style-type: disc;
-    padding-left: 40px;
-}
-
 /* Investment Section */
 
 #investment .card {
