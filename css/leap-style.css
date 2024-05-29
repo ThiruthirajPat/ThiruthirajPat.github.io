@@ -249,7 +249,7 @@ footer {
 }
 
 .accordion-button {
-    background-color: #38002E;
+    background-color: #34166E;
     color: #ffffff;
     font-weight: bold;
 }
@@ -260,7 +260,7 @@ footer {
 
 .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #38002E;
+    background-color: #34166E;
 }
 
 .accordion-body {
