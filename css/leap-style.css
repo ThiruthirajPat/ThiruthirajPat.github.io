@@ -77,8 +77,8 @@ ul li {
 /* Offers */
 
 #offers-bonuses .offer-card {
-    background-color: rgb(128, 4, 150);
-    border-left: 5px solid #ffd700;
+    background-color: #34166E;
+    border-left: 5px solid #31C563;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
